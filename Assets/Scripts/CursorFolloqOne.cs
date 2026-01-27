@@ -13,6 +13,12 @@ public class CursorFolloqOne : MonoBehaviour
     void Update()
     {
 		Vector2 mousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
-		transform.position = mousePos;
+        //Vector2 posX = 
+		//transform.position = mousePos;
+        //if(mousePos.x <= -0.71 || mousePos.x >= 0.41 && mousePos.y <= 0.4 || mousePos.y >= -0.04)
+        //{
+            //transform.position.x = -0.421f;
+            //transform.position.y = 0.069f;
+        //}
 	}
 }

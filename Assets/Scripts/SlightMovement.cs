@@ -2,7 +2,10 @@ using UnityEngine;
 
 public class SlightMovement : MonoBehaviour
 {
-	float speed = 0.01f;
+
+	public float speed;
+	public float x1;
+	public float x2;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -12,13 +15,14 @@ public class SlightMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		//Sets up the movement
 		Vector2 newPos = transform.position;
 		newPos.x += speed;
 		transform.position = newPos;
 
 
-		Vector2 screenPosition = Camera.main.WorldToScreenPoint(transform.position);
-		if (screenPosition.x < 2.97 || screenPosition.x > 3.10)
+		//Restrains the movement so it's not moving on one direction all the time
+		if (newPos.x < x1 || newPos.x > x2)
 		{
 			speed = speed * -1;
 		}
