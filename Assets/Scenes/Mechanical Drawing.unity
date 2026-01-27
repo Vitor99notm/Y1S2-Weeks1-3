@@ -470,6 +470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 292195582}
   - component: {fileID: 292195581}
+  - component: {fileID: 292195583}
   m_Layer: 0
   m_Name: arm band
   m_TagString: Untagged
@@ -547,6 +548,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &292195583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292195580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ddfaf4b02e9e0a4ca23111d21870737, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &402353538
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,6 +570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 402353540}
   - component: {fileID: 402353539}
+  - component: {fileID: 402353541}
   m_Layer: 0
   m_Name: Right eye
   m_TagString: Untagged
@@ -634,6 +648,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &402353541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402353538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce95e13793f522d4296908a9e160ad79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &483910394
 GameObject:
   m_ObjectHideFlags: 0
@@ -947,6 +973,7 @@ GameObject:
   m_Component:
   - component: {fileID: 761679024}
   - component: {fileID: 761679023}
+  - component: {fileID: 761679025}
   m_Layer: 0
   m_Name: Left eye
   m_TagString: Untagged
@@ -1024,6 +1051,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &761679025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761679022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce95e13793f522d4296908a9e160ad79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &785386619
 GameObject:
   m_ObjectHideFlags: 0
